@@ -1,6 +1,5 @@
 package com.linlif.mydownload;
 
-import android.support.v4.print.PrintHelper;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -11,13 +10,12 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-import cn.aigestudio.downloader.DownloadSelf;
-import cn.aigestudio.downloader.bizs.DLHeader;
-import cn.aigestudio.downloader.bizs.DLInfo;
-import cn.aigestudio.downloader.bizs.DLManager;
-import cn.aigestudio.downloader.interfaces.IDListener;
-import cn.aigestudio.downloader.interfaces.SysListener;
-import cn.aigestudio.downloader.sys.DownloadBySy;
+import com.mydownload.DownloadSelf;
+import com.mydownload.interfaces.IDListener;
+import com.mydownload.interfaces.SysListener;
+import com.mydownload.main.DLHeader;
+import com.mydownload.main.DLInfo;
+import com.mydownload.sys.DownloadBySy;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener{
 
